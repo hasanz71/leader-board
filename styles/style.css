@@ -1,0 +1,81 @@
+body {
+  background-color: #f3f1ff;
+}
+.navigation-bar {
+  max-width: 900px;
+}
+.navbar-nav li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.logo-text {
+  padding-left: 10px;
+  font-size: 26px;
+}
+.player img {
+  width: 60px;
+}
+
+.player-name {
+  font-weight: bolder;
+}
+main {
+  max-width: 870px;
+  background-color: white;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  border-radius: 12px;
+}
+
+.top-player {
+  background-color: white;
+}
+main h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #562eff;
+}
+.writers-name {
+  color: #562eff;
+  font-weight: bolder;
+}
+.blog img {
+  width: 177px;
+  height: 117px;
+}
+.blog {
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.card {
+  border: none;
+}
+.latest-courses img {
+  padding-top: 10px;
+}
+.courses {
+  width: 90%;
+}
+.teacher {
+  color: #ed6b4f;
+}
+.rating {
+  font-weight: bold;
+}
+.second-time {
+  background-color: #fee5df;
+  border-radius: 15px;
+  padding: 0px 5px;
+}
+.second-card-time {
+  color: #ed6b4f;
+  font-weight: 600;
+}
+.card-footer {
+  border: none;
+}
+footer p {
+  color: grey;
+  margin-top: 100px;
+}

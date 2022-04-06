@@ -5,6 +5,257 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leaderboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="bg-primary">
+      <section class="container-fluid navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="images/icons/logo.png" width="40px" alt="" />
+              <span class="logo-text">Idea</span></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blogs">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"
+                    ><img src="images/icons/profile.png" width="40px" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <main class="mx-auto">
+      <section class="container-fluid top-player">
+        <h3>Top Player</h3>
+        <div class="row mb-4">
+          <div class="col-md-4 p-3 col-sm-6 player d-flex align-items-center">
+            <img src="images/players/player-1.png" alt="" />
+            <p class="player-name ps-3">Liton Das</p>
+          </div>
+          <div class="col-md-4 p-3 col-sm-6 player d-flex align-items-center">
+            <img src="images/players/player-2.png" alt="" />
+            <p class="player-name ps-3">Babar Azam</p>
+          </div>
+          <div class="col-md-4 p-3 col-sm-6 player d-flex align-items-center">
+            <img src="images/players/player-3.png" alt="" />
+            <p class="player-name ps-3">Virat Kohli</p>
+          </div>
+
+          <div class="col-md-4 p-3 col-sm-6 player d-flex align-items-center">
+            <img src="images/players/player-4.png" alt="" />
+            <p class="player-name ps-3">Steve Smith</p>
+          </div>
+          <div class="col-md-4 p-3 col-sm-6 player d-flex align-items-center">
+            <img src="images/players/player-5.png" alt="" />
+            <p class="player-name ps-3">Kane Williamson</p>
+          </div>
+          <div class="col-md-4 p-3 col-sm-6 player d-flex align-items-center">
+            <img src="images/players/player-6.png" alt="" />
+            <p class="player-name ps-3">Joe Root</p>
+          </div>
+        </div>
+        <hr />
+      </section>
+      <section class="container-fluid top-player" id="blogs">
+        <h3>Top Blog</h3>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card flex-row blog">
+              <img
+                src="images/blogs/blog-1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">13 of my favorite UI/UX goodies</h5>
+                <p class="card-text">
+                  by <span class="writers-name">Danny Sapio</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card flex-row blog">
+              <img
+                src="images/blogs/blog-2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">UI cheat sheets:lists vs grids</h5>
+                <p class="card-text"> by
+                  <span class="writers-name">Tess Gadd
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card flex-row blog">
+              <img
+                src="images/blogs/blog-3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  7 typography tips for interface design
+                </h5>
+                <p class="card-text"> by
+                  <span class="writers-name">Jeremiah Lam</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card flex-row blog">
+              <img
+                src="images/blogs/blog-4.png"
+                
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Is your logo copoied?</h5>
+                <p class="card-text"> by
+                  <span class="writers-name">Ferdinand Vogler</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+      
+    <main class="mx-auto">
+      <section class="container-fluid latest-courses" id="courses">
+        <h3>Latest Courses</h3>
+      <div class="card-group">
+        <div class="card">
+          <img src="images/courses/course-1.png" class="card-img-top courses" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">React - The Complete Guide 2022</h5>
+            <p class="card-text teacher">Reed Krakoff</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px"alt="">
+                  <p class="pt-4 ms-2 rating">5.0</p>
+                </div>
+                <div class="second-time d-flex align-items-center ms-5">
+                  <img class="me-1 ps-1 pb-2" style="width: 23px;" src="images/icons/clock.png" alt="">
+                  <h6 class="second-card-time pt-2 pe-1">01:30 hr</h6>
+                </div>
+              </div>
+              
+            </small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/courses/course-2.png" class="card-img-top courses" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Powepoint - Become a Master</h5>
+            <p class="card-text teacher">Walter Scott</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px"alt="">
+                  <p class="pt-4 ms-2 rating">5.0</p>
+                </div>
+                <div class="second-time d-flex align-items-center ms-5">
+                  <img class="me-1 ps-1 pb-2" style="width: 23px;" src="images/icons/clock.png" alt="">
+                  <h6 class="second-card-time pt-2 pe-1">01:20 hr</h6>
+                </div>
+              </div>
+              
+            </small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/courses/course-3.png" class="card-img-top courses" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Complete Javascript Course</h5>
+            <p class="card-text teacher">Jonas Schmedtmen</p>
+          </div>
+          <div class="card-footer star">
+            <small class="text-muted">
+              <div class="d-flex align-items-center">
+                <div class="d-flex align-items-center">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px" alt="">
+                  <img src="images/icons/star.png" width="15px"alt="">
+                  <p class="pt-4 ms-2 rating">5.0</p>
+                </div>
+                <div class="second-time d-flex align-items-center ms-5">
+                  <img class="me-1 ps-1 pb-2" style="width: 23px;" src="images/icons/clock.png" alt="">
+                  <h6 class="second-card-time pt-2 pe-1">01:30 hr</h6>
+                </div>
+              </div>
+              
+            </small>
+          </div>
+        </div>
+      </div>
+      </section>
+    </main>
+    <footer class="d-flex justify-content-center">
+      <p>©️All rights reserved to absolute nobody</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
